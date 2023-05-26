@@ -1,0 +1,7 @@
+lab 1
+Solution of non liner eqn using Bisection method and Regular falsi Method.
+
+lab 2
+Solition of non liner eqn using Newto-Raphson methof and fixed point iteration method.
+
+lab 3
