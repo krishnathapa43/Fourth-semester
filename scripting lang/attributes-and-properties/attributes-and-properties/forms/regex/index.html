@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Regular Expression</h1>
+
+</body>
+<script>
+    // let str= "Hello word";
+    // let regex = /hello/i;
+    // // let regex = new RegExp("hello");
+
+
+    // // console.log(regex.test(str));
+    // console.log(regex.exec(str));
+
+    // let str= "123 ";
+    // // let regex = /\d\d\d/i;
+    // let regex = /\d{3}/i;
+    // console.log(regex.exec(str));
+
+    // let str = "Hello world";
+    // let regex = /\w{2}\s\w{5}/i;
+    // console.log(regex.exec(str));
+
+            //email pattern
+    // let str = "alex@gmail.com"
+    // let regex = /\w+@\w+.\w{3}/;
+    // console.log(regex.exec(str));
+
+                // date pattern 
+    let dateRegex = /^\d{2}-\d{2}-\d{2}(\d{2})?$/;
+    console.log(dateRegex.test("01-01-1990"));
+    console.log(dateRegex.test("01-01-90")); 
+
+    console.log(dateRegex.exec("01-01-1990"));
+</script>
+
+</html>

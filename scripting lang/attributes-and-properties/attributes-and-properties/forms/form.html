@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>froms</title>
+</head>
+<body>
+    <form name="emailForms" action="">
+    <h1>forms</h1>
+    <label for="">Email</label>
+    <input type="email" name="email" id=""/>
+
+    <label>Terms of condiotion </label>
+    <input type="chceckbox " name="terms" id=""/>
+        <br>
+    <label for="">Name</label>
+    <input type="text" name="" id="" />
+
+    <button>Submit</button>
+</form>
+
+    <script>
+        const forms = document.forms;
+        const firstForm = document.forms.emailForm;
+        const secondForm = forms[1];
+
+         console.log(firstForm.terms.checked);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non Standard Attributes</title>
+  </head>
+  <body>
+    <!--
+        Non-standard attributes, dataset
+
+        When writing HTML, we use a lot of standard attributes. 
+        But what about non-standard, custom ones? First, let’s see whether they are useful or not? What for?
+
+        Sometimes non-standard attributes are used to pass custom data from HTML to JavaScript,
+         or to “mark” HTML-elements for JavaScript.
+    -->
+
+    <!-- mark the div to show "name" here -->
+    <div show-info="name"></div>
+    <!-- and age here -->
+    <div show-info="age"></div>
+
+    <!--        
+        <div class="order" order-state="new">
+        A new order.
+        </div>
+
+        <div class="order" order-state="pending">
+        A pending order.
+        </div>
+
+        <div class="order" order-state="canceled">
+        A canceled order.
+        </div>
+    -->
+
+    <!--
+        All attributes starting with “data-” are reserved for programmers’ use. They are available in the dataset property.
+
+        For instance, if an elem has an attribute named "data-about", it’s available as elem.dataset.about.     
+    -->
+    <script></script>
+  </body>
+</html>
