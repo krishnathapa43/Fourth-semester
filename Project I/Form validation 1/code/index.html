@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        
+        <form action="" name="signup">
+
+            <h1 class="form-title"><U>Form Validation</U></h1>
+
+            <div class="form-group" id="nameGroup">
+                <label for="">Your Name</label>
+                <input type="text" name="name" id="" />
+                <p class="message"></p>
+            </div>
+            
+
+            <div class="form-group" id="cityGroup">
+                <label for="">City</label>
+                <input type="text" name="city" id="" />
+                <p class="message"></p>
+            </div>
+
+            <div class="form-group" id="stateGroup">
+                <label for="">State</label>
+                <input type="text" name="state" id="" />
+                <p class="message"></p>
+            </div>
+
+            <div class="form-group" id="zipcodeGroup">
+                <label for="">Zip code</label>
+                <input type="text" name="zipcode" id="" />
+                <p class="message hidden"></p>
+            </div>
+
+            <div class="form-group" id="phonenumGroup">
+                <label for="">phone Number</label >
+                <input type="text" name="phonenum" id=" "/>
+                <p class="message"></p>
+            </div>
+
+                <div class="form-group" id="emailGroup">
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="" />
+                    <p class="message"></p>
+                </div>
+
+            <div class="form-group" id="birthdateGroup">
+                <label for="">Birth Date</label>
+                <input type="date" name="birthdate" id="" />
+                <p class="message"></p>
+            </div>
+
+            <div class="form-group" id="messageGroup">
+                <label for="">Message</label>
+                <textarea name="msg" id="" cols="30" rows="5"></textarea>
+                <p class="message"></p>
+            </div>
+            
+
+            <button id="submitButton" class="btn">Signup</button>
+        </form>
+    </div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
