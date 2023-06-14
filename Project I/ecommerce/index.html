@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamslam Nepal </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div class="header">
+<div class="container">
+    <div class="navbar">
+
+        <!--logo-->
+        <div class="logo">
+            <img src="image/logo.png" width="125px" height="25px">
+        </div>
+
+        <!--nav Bar-->
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="image/cart.png" width="30px" height="30px">
+        <img src="image/menu.png" class="menu-icon"
+        onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout <br> A New Style!</h1>
+            <p>Sucess isn't always about greatness.It's about
+                consistency. Consistency <br> hard work gains sucess. 
+                Greatness will come. <br>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </p>
+        </div>
+        <div class="col-2">
+                <img src="image/execluive.jpeg" >
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!--Featured catagories-->
+<div class="catagories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="image/catagory-1.jpeg">
+            </div>
+            <div class="col-3">
+                <img src="image/catagory-2.jpeg">
+            </div>
+            <div class="col-3">
+                <img src="image/catagory-3.jpeg">
+            </div>
+    </div>
+        
+        </div>
+</div>
+
+<!--Featured product-->
+<div class="small-container">
+    <h2 class="title">Featured product</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="image/product1.jpeg" >
+            <h4>Bag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>RS 6000</p>
+        </div>
+    
+        <div class="col-4">
+            <img src="image/product2.jpeg" >
+            <h4>Coach</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <i class="far fa-star"></i>
+                
+            </div>
+            <p>RS 5000</p>
+        </div>
+    
+        <div class="col-4">
+            <img src="image/product3.jpeg" >
+            <h4>MK</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <p>RS 7500</p>
+        </div>
+    
+        <div class="col-4">
+            <img src="image/product4.jpeg" >
+            <h4>Adidas</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <p>RS 9000</p>
+        </div>
+    </div>
+<!------------------latest Products------------------------->
+<h2 class="title">latest Products</h2>
+<div class="row">
+    <div class="col-4">
+        <img src="image/product5.jpeg" >
+        <h4>Bag</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+        <p>RS 6000</p>
+    </div>
+
+    <div class="col-4">
+        <img src="image/product6.jpeg" >
+        <h4>Coach</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star-half"></i>
+            <i class="far fa-star"></i>
+            
+        </div>
+        <p>RS 5000</p>
+    </div>
+
+    <div class="col-4">
+        <img src="image/product7.jpeg" >
+        <h4>MK</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star-half"></i>
+        </div>
+        <p>RS 7500</p>
+    </div>
+
+    <div class="col-4">
+        <img src="image/product8.jpeg" >
+        <h4>Adidas</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star-half"></i>
+        </div>
+        <p>RS 9000</p>
+    </div>
+</div>
+
+
+<!--------------offer------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="image/offer.jpeg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Glam slam Nepal</p>
+                    <h1>Black Bag</h1>
+                    <small>A lady bag is an accessory which was often used 
+                        by women in the 1950s. The bag is medium sized with 
+                        rounded edges in the form of a rectangle. It is adorned 
+                        in leather and normally has one handle and a metal clasp 
+                        fastening much like a coin purse.</small><br>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!---------testimonial---------->
+<div class="testimonal">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. mollitia quae repudiandae
+                     aliquam alias, et adipisci. Quis corrupti 
+                     enim repudiandae. Error, delectus.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="image/11_14_11zon.jpg" alt="">
+                <h3>krishna Bahadur Thapa</h3>
+            </div>
+            
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. mollitia quae repudiandae
+                     aliquam alias, et adipisci. Quis corrupti 
+                     enim repudiandae. Error, delectus.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="image/bipin.jpg" alt="">
+                <h3>Bipin Ganesh</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------brands-------------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="image/esewa1.jpg" >
+                </div>
+            
+                <div class="col-5">
+                    <img src="image/khalti.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!---------Footer------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="image/apple.png" >
+                    <img src="image/google1.png" >
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="image/logo.png" >
+                <p>Our Purpose is to sustainably makr the <br>pleasure
+                    and Benefits of sports Accesible to the Many.
+                </p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Ploicy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 - Glam Slam Nepal</p>
+    </div>
+</div>
+
+
+<!------------js for toggle menu-------------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight == "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
